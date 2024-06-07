@@ -1,0 +1,57 @@
+/* The navigation bar */
+
+.navbar{
+    overflow: hidden;
+    background-color: #856b5b;
+    width: 100%; /* Full width */
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 67px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #492a0c;
+  color: white;
+}
+
+
+.container1 {
+    border: 3px rgb(0, 0, 0); 
+    width: 1500px; 
+    height: 50px;
+    }
+
+.container { 
+    border: 3px rgba(0, 0, 0, 0); 
+    width: 750px; 
+    height: 750px;
+    margin-left: 30px;
+    }
+
+.outer-container{
+    display: flex;  
+    flex-direction: row;   
+    
+}
+
+.container2 {
+    
+    border: 3px rgba(0, 0, 0, 0); 
+    width: 750px; 
+    height: 750px;
+    margin-left: 170px;
+    }
